@@ -233,6 +233,7 @@ gda-mcp-server/
   gda_mcp_server.py   # FastMCP 入口与工具注册
   src/
     gda_sv.py         # -sv 进程管理、TCP 客户端、分页、命令映射
+    extras.py         # 扩展辅助（主 Activity / Manifest 组件 / 包树 / APK 资源等）；当前未挂到 MCP 工具
     __init__.py
   requirements.txt
   smoke_check.py
